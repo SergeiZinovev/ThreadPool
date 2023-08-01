@@ -62,7 +62,7 @@ int main() {
     time_t start, end;
     //single thread sorting
     time(&start);
-   unsigned long arrsize = 30'000'000;
+   unsigned long arrsize = 40'000'000;
     int* arr = new int[arrsize];
     for (int i = 0; i < arrsize; i++) {
         arr[i] = rand() / 100;
